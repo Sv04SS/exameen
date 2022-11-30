@@ -1,0 +1,164 @@
+body
+
+{
+   
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 20px;
+    margin: 0;
+ 
+    
+
+}
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+    color:black ;
+    width: 50px;
+
+}
+
+
+header
+{
+    font-family: 'Reenie Beanie', cursive;
+    display: flex;
+    font-size: 50px;
+    min-height: 10px;
+    background-color:yellow;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+
+.logo
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img
+{
+    height: 230px;
+    margin-right: 10px;
+
+}
+
+
+nav a
+{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+
+nav a:hover
+{
+    color: aliceblue;
+
+}
+
+@media (max-with:700px){
+
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+}
+
+.contenedor-botones {
+    
+    width: 100%;
+    display: grid;
+    justify-content: right;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+
+
+.botonn{
+    display: flex;
+    align-items: center;
+    width: 500%;
+    height: 80px;
+    background:black;
+    color:yellow;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 500PX;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    justify-content: right;
+    margin: 0px 600px;
+}
+
+
+
+.what
+{
+    width: 100px;
+    margin: 0px 300px;
+
+}
+
+h1
+{
+    font-size: 60px;
+    padding: 20px;
+
+}
+
+P
+{
+   font-size: 50px;
+    padding-left: 20PX;
+}
+
+.botonnn
+{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 80px;
+    background:black;
+    color:yellow;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 500PX;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    justify-content: right;
+    margin: 20px;
+}
+
+.cuadro{
+    border: 1px solid black;
+    width: 49.5%;
+    display: inline-block;
+    height: 49.5%;
+    overflow: hidden;
+}
+
+
+
+
+
+
